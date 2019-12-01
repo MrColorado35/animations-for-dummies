@@ -1,0 +1,28 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #e84610;
+    margin: 40px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    }
+#square {
+        animation: spin 2s infinite linear;
+    }
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.box:hover{
+        width: 200px;
+        height: 200px;
+        background-color: #ffff00;
+        margin: 60px;
+        
+    }
